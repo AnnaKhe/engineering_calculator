@@ -96,7 +96,7 @@ void MainWindow::math_operations()
     QPushButton *button = qobject_cast<QPushButton*>(sender());
     num_first = ui->result_show->text().toDouble();
     ui->result_show->setText("");
-    button->setChecked(true); // setCheked pomoget opredelyt' na kakuy knopku bylo nagato
+    button->setChecked(true);
 
 }
 
